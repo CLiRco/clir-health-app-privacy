@@ -1,10 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CLiR.health App — Privacy Policy</title>
-<style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CLiR.health App — Privacy Policy</title><style>
   :root{
     --bg:#ffffff; --txt:#1c2733; --txt2:#4a5866; --line:#e3e8ee;
     --accent:#18a0db; --card:#f5f8fa;
@@ -32,65 +26,144 @@
   strong{font-weight:700}
   a{color:var(--accent)}
   .foot{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--txt2);font-size:13.5px}
-</style>
-</head>
-<body>
-<main>
-  <h1>CLiR.health App — Privacy Policy</h1>
-  <div class="meta">Effective date: July 22, 2026 · Applies to the CLiR.health Android and iOS apps (<code>co.clir.health</code>)</div>
-
-  <div class="tldr">The short version: the CLiR.health app collects no data. Everything you enter stays on your device — and, if you use your phone's backup service, in your own encrypted Google or iCloud backup that only you control. We have no servers, no accounts, and no way to see your information.</div>
-
-  <h2>What the app stores — on your device only</h2>
-  <p>The app keeps the records you create so it can work:</p>
-  <ul>
-    <li>Dosing protocols you set up (compound, dose, schedule, duration)</li>
-    <li>Your dose log (what you logged, when, and at which injection site)</li>
-    <li>Supply and inventory counts</li>
-    <li>Custom injection sites and app settings</li>
-  </ul>
-  <p>All of this is stored in the app's private local storage on your phone. It is never transmitted to CLiR.health or anyone else. We could not access, recover, or delete it for you even if asked — we never have it.</p>
-
-  <h2>What we don't do</h2>
-  <ul>
-    <li>No account or sign-up</li>
-    <li>No analytics, telemetry, or crash reporting</li>
-    <li>No advertising and no ad SDKs</li>
-    <li>No third-party SDKs that collect data</li>
-    <li>No selling, sharing, or transfer of personal data — we hold none</li>
-  </ul>
-
-  <h2>Backups and exports</h2>
-  <p>You can export your data as a JSON backup or an Excel spreadsheet. Exports happen only when you tap them, and your phone's share sheet lets you choose where the file goes (your files, your cloud drive, an email — your choice). Exported files contain your records, so store them as carefully as you would the app itself. CLiR.health never receives a copy.</p>
-
-  <h2>Your phone's own backup system</h2>
-  <p>Separately from the exports above, your phone's operating system may include the app's data in your personal device backup — Google's device backup on Android, iCloud Backup on iOS. This is a feature of your phone, not of the app: the backup belongs to your Google or Apple account, is encrypted by Google/Apple, and may be restored automatically if you reinstall the app or move to a new phone. CLiR.health has no access to these backups and receives nothing from them.</p>
-  <p>You control this in your phone's settings (Android: Settings → Google → Backup; iOS: Settings → your name → iCloud → Backups). If you exclude the app or disable device backup, your data exists only on the device and in exports you make yourself.</p>
-
-  <h2>Network use</h2>
-  <p>The app works entirely offline and makes no network requests of its own. The only time it touches the network is when you tap a citation (for example, an FDA label or a published study) — that link opens in your browser, and the website you visit is governed by its own privacy policy, not this one.</p>
-
-  <h2>Notifications and permissions</h2>
-  <p>Dose reminders are created and scheduled locally on your device. The app asks for:</p>
-  <ul>
-    <li><strong>Notifications</strong> — to show dose reminders.</li>
-    <li><strong>Alarms &amp; reminders</strong> (exact alarms) — so reminders fire at the precise scheduled time even when the app is closed. This is the app's core function.</li>
-    <li><strong>Network access</strong> — used only to open cited sources, as described above.</li>
-  </ul>
-
-  <h2>Retention and deletion</h2>
-  <p>Your data stays on your device until you delete it in the app or uninstall the app. Uninstalling removes the app's data from the device itself; a copy may remain in your personal device backup (see "Your phone's own backup system" above) and can be restored if you reinstall. Export files you previously saved elsewhere are likewise unaffected by uninstalling. To remove every copy: delete your data in the app (or uninstall), remove the app from your device backup in system settings, and delete any exports you created.</p>
-
-  <h2>Children</h2>
-  <p>The app is intended for adults (18+) and is not directed to children.</p>
-
-  <h2>Changes to this policy</h2>
-  <p>If the app ever changes how it handles data (for example, adding an optional sync feature), this policy will be updated first and the effective date revised. Material changes will be called out in the app's release notes.</p>
-
-  <h2>Contact</h2>
-  <p>Questions about this policy or your data: <a href="mailto:app@clir.health">app@clir.health</a></p>
-
-  <div class="foot">© 2026 CLiR.health · This page exists to serve the app's Google Play and App Store listings.</div>
-</main>
-</body>
-</html>
+</style></head><body><main><p><a href="index.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="delete-account.html">Delete account or data</a></p><h1>CLiR.health App — Privacy Policy</h1>
+<p><em>Effective date: September 10, 2026 (previous version: July 22, 2026) · Applies to the CLiR.health Android and iOS apps (<code>co.clir.health</code>)</em></p>
+<hr />
+<p><strong>The short version: using CLiR.health without signing in keeps your records on your device. Everything you
+enter stays on your device — and, if you use your phone's backup service, in
+your own encrypted Google or iCloud backup that only you control. We have no
+analytics or ads. Signing in processes account information as described below.</strong></p>
+<p><strong>If you activate CLiR Cloud, through a subscription or complimentary access, the app keeps an
+encrypted copy of your records in your CLiR Cloud account so they can be
+restored on another phone. That copy is encrypted in transit and at rest, is
+used for backup, sync, and optional AI access you authorize, and is deleted when you
+ask or 90 days after your subscription ends.</strong></p>
+<h2>What the app stores — on your device</h2>
+<p>The app keeps the records you create so it can work:</p>
+<ul>
+<li>Dosing protocols you set up (compound, dose, schedule, duration)</li>
+<li>Your dose log (what you logged, when, and at which injection site)</li>
+<li>Supply and inventory counts</li>
+<li>Custom injection sites and app settings</li>
+</ul>
+<p>All of this is stored in the app's private local storage on your phone. Unless
+you turn on CLiR Cloud, it is never transmitted to CLiR.health or anyone else,
+and we could not access, recover, or delete it for you even if asked — we never
+have it.</p>
+<h2>What we don't do</h2>
+<ul>
+<li>No analytics, telemetry, or crash reporting</li>
+<li>No advertising and no ad SDKs</li>
+<li>No selling personal data or using it for advertising. Service providers and
+  optional AI connections process data as described below.</li>
+<li>No account is required to use the app. Signing in is needed only for CLiR
+  Cloud (below)</li>
+</ul>
+<h2>CLiR Cloud (optional paid subscription)</h2>
+<p>CLiR Cloud is an optional subscription that backs up your app data to your
+account and restores it on any phone you sign into. Account data is processed
+when you sign in, even before subscribing. Uploading your records requires an
+active CLiR Cloud entitlement.</p>
+<p><strong>Signing in.</strong> You sign in with Google or with Apple. We receive the
+identifier your provider issues for our app, and — if you allow it — the email
+address and display name on that account. We never see your password. Apple's
+"Hide My Email" works normally.</p>
+<p><strong>What is stored.</strong> When CLiR Cloud is on, the app uploads the same records
+listed above (protocols, dose log, supply, sites, settings) as a single backup
+file tied to your account, together with the time of the last change and the
+app version that wrote it. Nothing else is collected — no location, no
+contacts, no device identifiers beyond a random per-install sync marker.</p>
+<p><strong>Where and how it is stored.</strong> The backup is stored in Google Cloud
+(Firestore) in the United States, in a project controlled by CLiR Health LLC.
+It is encrypted in transit (TLS) and at rest (Google-managed encryption).
+Access is restricted by server-side rules so that only the signed-in account
+that owns a backup can read, replace, or delete it. CLiR Health staff do not
+read backups except where strictly necessary to investigate a problem you have
+reported to us, and never for any other purpose.</p>
+<p><strong>Subscription and billing.</strong> Purchases are made through Google Play or the
+App Store; CLiR.health never sees your card details. To know whether your
+subscription is active, we use RevenueCat, a subscription-management service,
+which receives your app user ID (the sign-in identifier above) and purchase
+receipts from the store. RevenueCat's own privacy policy governs its handling
+of that data.</p>
+<p><strong>Service providers.</strong> Google (Firebase Authentication, Firestore), Apple
+(Sign in with Apple, App Store billing), and RevenueCat act as processors on
+our behalf for the purposes described here. If you choose to connect an AI
+assistant, its provider also receives the data you request as described below.</p>
+<p><strong>Retention and deletion.</strong> Your backup is kept while your subscription is
+active. You can delete it at any time in Settings → CLiR Cloud → <em>Delete cloud
+copy</em>, which removes it immediately; the data on your phone is untouched. If
+your subscription ends, the backup remains available to you (read-only) and is
+permanently deleted 90 days after the end of the last paid period. Signing out
+does not delete the backup. To delete your sign-in account and cloud copy,
+use Settings → CLiR Cloud → <em>Delete account</em>. If requested, sign out and sign
+back in first to confirm your identity. You can also email app@clir.health
+from the address on the account; we remove the account and any backup within
+30 days. Account deletion does not erase records on your phone or cancel
+your store subscription. Manage the subscription separately in Google Play
+or the App Store. Store and RevenueCat purchase records are separate from
+your cloud backup and follow their respective retention policies.</p>
+<p><strong>Connecting an AI assistant (optional).</strong> Subscribers can connect Claude or
+ChatGPT to their CLiR Cloud data through a connector we host
+(https://clir-health.web.app). This only happens if you set it up yourself,
+inside the assistant, and sign in with your CLiR Cloud account. Once
+connected, the assistant can <em>read</em> your protocols, dose log, adherence
+summaries and supply when you ask it questions; it cannot add, change, or
+delete anything. Whatever the assistant reads is then handled by Anthropic or
+OpenAI under their own privacy terms, not ours. Disconnect at any time from
+the assistant's connector settings, or by deleting your CLiR Cloud account in
+the app, and access stops immediately.</p>
+<h2>Backups and exports</h2>
+<p>You can export your data as a JSON backup or an Excel spreadsheet. Exports
+happen only when you tap them, and your phone's share sheet lets you choose
+where the file goes (your files, your cloud drive, an email — your choice).
+Exported files contain your records, so store them as carefully as you would
+the app itself. CLiR.health never receives a copy.</p>
+<h2>Your phone's own backup system</h2>
+<p>Separately from the exports above, your phone's operating system may include
+the app's data in your personal device backup — Google's device backup on
+Android, iCloud Backup on iOS. This is a feature of your phone, not of the
+app: the backup belongs to your Google or Apple account, is encrypted by
+Google/Apple, and may be restored automatically if you reinstall the app or
+move to a new phone. CLiR.health has no access to these backups and receives
+nothing from them.</p>
+<p>You control this in your phone's settings (Android: Settings → Google →
+Backup; iOS: Settings → your name → iCloud → Backups). If you exclude the app
+or disable device backup, your data exists only on the device and in exports
+you make yourself.</p>
+<h2>Network use</h2>
+<p>Without CLiR Cloud, the app works entirely offline and makes no network
+requests of its own; the only time it touches the network is when you tap a
+citation (for example, an FDA label or a published study) — that link opens in
+your browser, and the website you visit is governed by its own privacy policy,
+not this one. With CLiR Cloud on, the app additionally talks to Google
+(sign-in and backup storage) and RevenueCat (subscription status) as described
+above, and to nothing else. If you connect an AI assistant, that assistant's
+provider talks to our connector on your behalf; the app itself does not.</p>
+<h2>Notifications and permissions</h2>
+<p>Dose reminders are created and scheduled locally on your device. The app asks
+for:</p>
+<ul>
+<li><strong>Notifications</strong> — to show dose reminders.</li>
+<li><strong>Alarms &amp; reminders</strong> (exact alarms) — so reminders fire at the precise
+  scheduled time even when the app is closed. This is the app's core function.</li>
+<li><strong>Network access</strong> — used to open cited sources and, if you subscribe, for
+  CLiR Cloud.</li>
+</ul>
+<h2>Retention and deletion (on the device)</h2>
+<p>Your data stays on your device until you delete it in the app or uninstall the
+app. Uninstalling removes the app's data from the device itself; a copy may
+remain in your personal device backup (see "Your phone's own backup system"
+above) and can be restored if you reinstall. Export files you previously saved
+elsewhere are likewise unaffected by uninstalling. To remove every copy:
+delete your data in the app (or uninstall), remove the app from your device
+backup in system settings, delete any exports you created, and — if you used
+CLiR Cloud — delete the cloud copy in Settings or email us.</p>
+<h2>Children</h2>
+<p>The app is intended for adults (18+) and is not directed to children.</p>
+<h2>Changes to this policy</h2>
+<p>If the app changes how it handles data, this policy will be updated first and
+the effective date revised. Material changes will be called out in the app's
+release notes.</p>
+<h2>Contact</h2>
+<p>Questions about this policy or your data: <strong>app@clir.health</strong></p></main></body></html>
